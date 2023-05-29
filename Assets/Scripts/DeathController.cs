@@ -7,7 +7,7 @@ using UnityEngine;
 public class DeathController : MonoBehaviour
 {
 
-    private XplosionController bombController;
+    [SerializeField] private AudioClip sound;
     public ParticleSystem xplode;
     [SerializeField] public GameObject panel;
     public float Delay = 1f;
@@ -30,15 +30,15 @@ public class DeathController : MonoBehaviour
 
             // Instancia el efecto de muerte en la posición de la colisión
             Instantiate(xplode, collision.contacts[0].point, Quaternion.identity);
-            bombController.audioSource.Play();
+            
 
             // Desactiva el objeto del personaje para que no se pueda mover
-
+            SoundXplosionController.Instance.Sound(sound);
             gameObject.SetActive(false);
             Invoke("delayFunction", Delay);
 
         }
-    }
+    } 
 
     void delayFunction()
     {

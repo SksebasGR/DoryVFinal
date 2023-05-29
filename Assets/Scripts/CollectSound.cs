@@ -2,25 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class XplosionController : MonoBehaviour
+public class CollectSound : MonoBehaviour
 {
     private AudioSource audioSource;
-    [SerializeField] public ParticleSystem explosion;
     
-
-    void Start()
+    private void Start()
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.Stop();
-
     }
 
-    
-    void Update()
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (explosion.isPlaying)
+        if (other.gameObject.CompareTag("Player"))
         {
             audioSource.Play();
+            
         }
     }
+
+
+
+
 }

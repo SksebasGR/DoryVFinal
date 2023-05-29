@@ -31,8 +31,7 @@ public class OxygenScore : MonoBehaviour
 
         while (timeElapsed < decreaseDuration)
         {
-            Debug.Log(timeElapsed);
-            Debug.Log(decreaseDuration);
+           
             
             timeElapsed += Time.deltaTime;
             float normalizedTime = timeElapsed / decreaseDuration;

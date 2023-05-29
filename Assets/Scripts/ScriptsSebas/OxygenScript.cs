@@ -5,16 +5,12 @@ using UnityEngine;
 
 public class OxygenScript : MonoBehaviour
 {
-    [SerializeField] private GameObject efect;
+    //[SerializeField] private GameObject efect;
     [SerializeField] private float countPoints;
     [SerializeField] private OxygenScore _points;
-    private AudioSource audioSource;
+    [SerializeField] private AudioClip _collect;
 
-    private void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-        audioSource.Stop();
-    }
+
 
 
 
@@ -23,10 +19,11 @@ public class OxygenScript : MonoBehaviour
         if (other.CompareTag("Player"))
         
         {
-            audioSource.Play();
+    
             _points.ChangeFillAmount(countPoints);
             _points.ChangeTime(10);
             //Instantiate(efect, transform.position, Quaternion.identity);
+            CollectorSound.Instance.Sound(_collect);
             Destroy(gameObject);
             
         }
