@@ -33438,7 +33438,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6105718977643580176, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6105718977643580190, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_Type
@@ -33568,6 +33568,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 0f4df19584f47ac4b964533d12bebed8, type: 3}
+    - target: {fileID: 9164396226402818426, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
 --- !u!4 &1832319300 stripped

@@ -10,22 +10,31 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         Time.timeScale = 0f;
-        buttonPause.SetActive(false);
+        //buttonPause.SetActive(false);
         pauseMenu.SetActive(true);
     }
 
     public void Resume()
     {
         Time.timeScale = 1f;
-        buttonPause.SetActive(true);
+        //buttonPause.SetActive(true);
         pauseMenu.SetActive(false);
     }
 
     public void Quit()
     {
         Time.timeScale = 1f;
-        buttonPause.SetActive(true);
+        //buttonPause.SetActive(true);
         pauseMenu.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Pause();
+        }
     }
 }
