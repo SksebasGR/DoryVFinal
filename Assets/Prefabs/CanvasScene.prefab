@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fillImage: {fileID: 443245046}
-  josttickImage: {fileID: 0}
+  josttickImage: {fileID: 582642748}
   decreaseDuration: 15
 --- !u!1 &582642745
 GameObject:
@@ -103,7 +103,6 @@ GameObject:
   - component: {fileID: 582642746}
   - component: {fileID: 582642749}
   - component: {fileID: 582642748}
-  - component: {fileID: 582642747}
   m_Layer: 5
   m_Name: Outline_2
   m_TagString: Untagged
@@ -169,21 +168,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &582642747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582642745}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38b393aba6a0f9a4ba948f2416aed5b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fillImage: {fileID: 582642748}
-  josttickImage: {fileID: 0}
-  decreaseDuration: 15
 --- !u!1 &931719701
 GameObject:
   m_ObjectHideFlags: 0
