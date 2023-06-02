@@ -9,7 +9,8 @@ public class OxygenScore : MonoBehaviour
     
     private float _points; 
     public Image fillImage;
-    
+    public Image josttickImage;
+
     public float decreaseDuration = 60f;
     private float targetFillAmount;
     private float initialFillAmount;
@@ -18,9 +19,10 @@ public class OxygenScore : MonoBehaviour
     private void Start()
     {
         fillImage = GetComponent<Image>();
+        josttickImage = GetComponent<Image>();
         initialFillAmount = fillImage.fillAmount;
         targetFillAmount = 0f;
-        
+
         StartCoroutine(DecreaseFill());
     }
     
@@ -38,6 +40,18 @@ public class OxygenScore : MonoBehaviour
             currentFillAmount = Mathf.Lerp(initialFillAmount, targetFillAmount, normalizedTime);
             fillImage.fillAmount = currentFillAmount;
             yield return null;
+
+            Debug.Log(currentFillAmount + "belly");
+
+            if (currentFillAmount > 0.5)
+            {
+                //josttickImage.color = new Color32(22, 187, 236, 146);
+                fillImage.color = new Color32(22, 187, 236, 146);
+                
+            } else {
+                fillImage.color = Color.red;
+               // josttickImage.color = Color.red;
+            }
         }
 
     }

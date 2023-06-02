@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.3069224, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -306,7 +306,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -504,7 +504,23 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2349022428765880227, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+    - target: {fileID: 1297585356, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23431119354034790, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 170608296304235091, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_text
+      value: Return
+      objectReference: {fileID: 0}
+    - target: {fileID: 422490855008157924, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -230
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395543192633832493, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -515,10 +531,6 @@ PrefabInstance:
     - target: {fileID: 2349022429969321826, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_Name
       value: CanvasMainMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 2349022429969321826, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2349022429969321838, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_Pivot.x
@@ -603,6 +615,38 @@ PrefabInstance:
     - target: {fileID: 2349022429969321838, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3014028234717420503, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_text
+      value: 'Find the missing trident:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 4851587303894400401, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556804375150748952, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556804375150748952, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556804375150748952, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556804375150748952, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 140.67798
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556804375150748952, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5556804375150748952, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
