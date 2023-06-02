@@ -28237,6 +28237,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1975040578}
     m_Modifications:
+    - target: {fileID: 443245045, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443245045, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931719702, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1840334267, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 771661364735972611, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -28381,9 +28397,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3717351062013716545, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5767772820310031069, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105718977643580176, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105718977643580177, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105718977643580191, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6477827821795033460, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -28400,6 +28432,10 @@ PrefabInstance:
     - target: {fileID: 6477827821795033460, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887475648625517408, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7272306455279251452, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_IsActive
