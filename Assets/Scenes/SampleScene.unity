@@ -58730,7 +58730,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 931719702, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 931719703, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_text
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1385960944, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -58754,7 +58758,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1840334267, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 408574918245968785, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 771661364735972611, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_Pivot.x
@@ -58906,7 +58914,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3717351062013716545, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5767772820310031069, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_PresetInfoIsWorld
@@ -58918,7 +58926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6105718977643580177, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6105718977643580177, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_LocalScale.x
@@ -58956,9 +58964,13 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6887475647838001566, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6887475648625517408, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6887475648625517409, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_IsActive
@@ -59030,7 +59042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9164396226402818426, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27e0949730dabb946a84c6a72ec517e5, type: 3}
@@ -59102,6 +59114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fillImage: {fileID: 1832319305}
+  josttickImage: {fileID: 0}
   decreaseDuration: 15
 --- !u!1 &1836207471
 GameObject:
