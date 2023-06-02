@@ -1,19 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-
-
-public class DeathController : MonoBehaviour
+public class DeathTime : MonoBehaviour
 {
-
     [SerializeField] public GameObject _depth;
     [SerializeField] public GameObject _time;
     [SerializeField] private AudioClip sound;
     public ParticleSystem xplode;
     [SerializeField] public GameObject panel;
-    public float Delay = 1f;
-
+    [SerializeField] public GameObject _player;
+    public float delay = 1f;
+    public Image fillImage;
 
 
     void Start()
@@ -23,31 +22,31 @@ public class DeathController : MonoBehaviour
     }
 
 
-    private void OnCollisionEnter(Collision collision)
+    private void FixedUpdate()
     {
 
-
-        // Verifica si la colisión es con el objeto que debe causar la muerte
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (fillImage.fillAmount == 0)
         {
-
-            // Instancia el efecto de muerte en la posición de la colisión
-            Instantiate(xplode, collision.contacts[0].point, Quaternion.identity);
-            
-
-            // Desactiva el objeto del personaje para que no se pueda mover
+            //xplode.Play();
+            Instantiate(xplode, _player.transform.position, Quaternion.identity);
             SoundXplosionController.Instance.Sound(sound);
+
+            _player.SetActive(false);
             gameObject.SetActive(false);
-            Invoke("delayFunction", Delay);
+            Invoke("delayFunction", delay);
+
 
         }
-    } 
+
+    }
+
+
 
     void delayFunction()
     {
         _time.SetActive(false);
         _depth.SetActive(false);
         panel.SetActive(true);
-    }
 
+    }
 }
