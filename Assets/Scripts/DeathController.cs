@@ -18,7 +18,9 @@ public class DeathController : MonoBehaviour
 
     void Start()
     {
+        
         xplode.Stop();
+        
 
     }
 
@@ -30,6 +32,8 @@ public class DeathController : MonoBehaviour
         // Verifica si la colisión es con el objeto que debe causar la muerte
         if (collision.gameObject.CompareTag("Enemy"))
         {
+
+
 
             // Instancia el efecto de muerte en la posición de la colisión
             Instantiate(xplode, collision.contacts[0].point, Quaternion.identity);

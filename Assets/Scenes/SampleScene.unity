@@ -3737,7 +3737,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233131025}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06999925, y: -2.8799992, z: 0.9433279}
+  m_LocalPosition: {x: -0.06999925, y: -2.8799992, z: 44.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11731,11 +11731,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2458120224340844289, guid: f11f4879466a80d4a97c8b1e4ed3d018, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.2
+      value: -51.8
       objectReference: {fileID: 0}
     - target: {fileID: 2458120224340844289, guid: f11f4879466a80d4a97c8b1e4ed3d018, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -245.1
+      value: -242.35
       objectReference: {fileID: 0}
     - target: {fileID: 2458120224340844289, guid: f11f4879466a80d4a97c8b1e4ed3d018, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24233,7 +24233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124968936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54, y: -40, z: -135}
+  m_LocalPosition: {x: 65.5, y: -40, z: -135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -27521,7 +27521,6 @@ GameObject:
   - component: {fileID: 1268908717}
   - component: {fileID: 1268908719}
   - component: {fileID: 1268908718}
-  - component: {fileID: 1268908721}
   m_Layer: 0
   m_Name: Explosion
   m_TagString: Untagged
@@ -32392,19 +32391,6 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!114 &1268908721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268908716}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3950459a48c01244c8f72cdec8498f69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 1268908719}
 --- !u!1001 &1270010904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59285,7 +59271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objFollow: {fileID: 372923314667591388}
-  speed: 7
+  speed: 2
   rotationSpeed: 10
 --- !u!114 &1837896167
 MonoBehaviour:
@@ -66230,11 +66216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2458120224340844289, guid: c34844af0a885f94eb33f005db42f0fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2
+      value: 44.2
       objectReference: {fileID: 0}
     - target: {fileID: 2458120224340844289, guid: c34844af0a885f94eb33f005db42f0fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -83.5
+      value: -88.4
       objectReference: {fileID: 0}
     - target: {fileID: 2458120224340844289, guid: c34844af0a885f94eb33f005db42f0fb, type: 3}
       propertyPath: m_LocalPosition.z

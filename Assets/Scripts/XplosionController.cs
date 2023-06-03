@@ -18,7 +18,7 @@ public class XplosionController : MonoBehaviour
     
     void Update()
     {
-        if (explosion.isPlaying)
+        if (!explosion.isPlaying)
         {
             audioSource.Play();
         }
