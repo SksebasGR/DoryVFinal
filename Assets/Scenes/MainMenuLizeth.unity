@@ -585,7 +585,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 80881347cc149664394240b471bbafe8, type: 2}
   m_audioClip: {fileID: 8300000, guid: 0cfe9f8ef9453464998e06803560cdda, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -691,7 +691,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2349022429522953161}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 16ea0cd6f62d94a4399979258b39dfab, type: 3}
+  m_Texture: {fileID: 8400000, guid: 89b636188a2df8a4f81ff821428237b5, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -812,9 +812,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 338976095, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 570007654, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 570007655, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1297585356, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_IsActive
@@ -822,7 +830,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1297585357, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778931596, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778931596, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 8400000, guid: 89b636188a2df8a4f81ff821428237b5, type: 2}
+    - target: {fileID: 743314111484617180, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 743314111484617180, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.391062
+      objectReference: {fileID: 0}
+    - target: {fileID: 743314111484617180, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10.579927
+      objectReference: {fileID: 0}
+    - target: {fileID: 743314111484617180, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.3359
+      objectReference: {fileID: 0}
+    - target: {fileID: 743314111484617180, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 85.111824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349022428670684127, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2349022428765880224, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_LocalScale.x
@@ -844,14 +884,30 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2349022428890552640, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349022429004359501, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2349022429522953164, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2349022429522953164, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_RenderMode
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2349022429522953164, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_TargetCamera
       value: 
       objectReference: {fileID: 1260795625}
+    - target: {fileID: 2349022429522953164, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 89b636188a2df8a4f81ff821428237b5, type: 2}
     - target: {fileID: 2349022429802210709, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -950,15 +1006,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3013549106149493086, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3818666409273369127, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7357165288373783593, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2349022429802210709, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
@@ -973,3 +1029,16 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2349022429802210711, guid: 52bddb190326fca498e95b54b7cad712, type: 3}
   m_PrefabInstance: {fileID: 2349022429522953158}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2349022429522953162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2349022429522953161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174b9d6d6fd7464dbd75c82ff5fbe22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoFileName: mainmenuvid.mp4
